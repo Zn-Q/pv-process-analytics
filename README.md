@@ -1,5 +1,9 @@
 # PV Process Analytics — Open Toolkit
 
+[![License: MIT](https://img.shields.io/github/license/Zn-Q/pv-process-analytics)](LICENSE)
+[![Language: Python](https://img.shields.io/github/languages/top/Zn-Q/pv-process-analytics)]()
+[![Stars](https://img.shields.io/github/stars/Zn-Q/pv-process-analytics?style=social)](https://github.com/Zn-Q/pv-process-analytics)
+
 Open-source demo layer for **photovoltaic / semiconductor process data analytics**.
 
 Lightweight, dependency-light Python toolkits covering three common engineering needs
@@ -53,10 +57,17 @@ No external API keys, fully local — your wafer data never leaves your machine.
 This repository ships the **open demo layer** (analysis cores, sample data and
 lightweight plotting). The full commercial editions — including **proprietary
 report-template adapters** (render results into your own PPT/Word templates) and
-polished business-report layouts — are distributed separately through a
-commercial channel. If you need template-driven reports or a ready-to-use Agent
-Skill, refer to the links provided in each module README (to be updated when the
-store listing is live).
+polished business-report layouts, packaged as ready-to-use Agent **Skills** — are
+distributed through the **ByteDance skill-evaluation platform (虾评 👉
+xiaping.coze.com)**, where you can try and install them directly. Search there
+for:
+
+- **制程SPC数据分析工具** (SPC engine, full report templates)
+- **制程良率与参数趋势分析器** (yield-trend engine, spec-limit alerts)
+- **载流子寿命分析工具** (QSSPC solver, Word-report + fit extraction)
+
+For bespoke template-driven reports or enterprise integration, open an issue or
+reach out through the linked platform pages.
 
 ## License
 MIT — see [LICENSE](LICENSE). Note the license covers only the open demo layer;
